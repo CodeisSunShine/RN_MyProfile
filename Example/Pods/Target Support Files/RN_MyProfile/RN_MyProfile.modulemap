@@ -1,0 +1,6 @@
+framework module RN_MyProfile {
+  umbrella header "RN_MyProfile-umbrella.h"
+
+  export *
+  module * { export * }
+}

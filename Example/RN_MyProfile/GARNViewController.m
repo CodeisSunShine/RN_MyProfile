@@ -7,6 +7,8 @@
 //
 
 #import "GARNViewController.h"
+#import "RN_MyProfile-Prefix.pch"
+#import "BJSRNRootViewTool.h"
 
 @interface GARNViewController ()
 
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIView *flatListView = [BJSRNRootViewTool getRCTRootViewWithBundleRoot:@"index.ios.jsbundle" ModuleName:@"MyInfoVC" initialProperties:nil];
+    [self.view addSubview:flatListView];
+    flatListView.frame = CGRectMake(0, 0, 375, 700);
 }
 
 - (void)didReceiveMemoryWarning

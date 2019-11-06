@@ -1,0 +1,147 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - React/Core (0.59.9):
+    - yoga (= 0.59.9.React)
+  - React/CxxBridge (0.59.9):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.59.9):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/jsinspector
+  - React/DevSupport (0.59.9):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.9)
+  - React/jsi (0.59.9):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React/jsiexecutor (0.59.9):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.59.9)
+  - React/RCTActionSheet (0.59.9):
+    - React/Core
+  - React/RCTAnimation (0.59.9):
+    - React/Core
+  - React/RCTBlob (0.59.9):
+    - React/Core
+  - React/RCTImage (0.59.9):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.59.9):
+    - React/Core
+  - React/RCTSettings (0.59.9):
+    - React/Core
+  - React/RCTText (0.59.9):
+    - React/Core
+  - React/RCTVibration (0.59.9):
+    - React/Core
+  - React/RCTWebSocket (0.59.9):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RN_MyProfile (0.1.0):
+    - DoubleConversion
+    - Folly
+    - glog
+    - React/Core
+    - React/CxxBridge
+    - React/DevSupport
+    - React/RCTActionSheet
+    - React/RCTAnimation
+    - React/RCTImage
+    - React/RCTNetwork
+    - React/RCTSettings
+    - React/RCTText
+    - React/RCTVibration
+    - React/RCTWebSocket
+    - yoga
+  - Specta (1.0.7)
+  - yoga (0.59.9.React)
+
+DEPENDENCIES:
+  - DoubleConversion
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - Folly
+  - glog
+  - React/Core
+  - React/CxxBridge
+  - React/cxxreact
+  - React/DevSupport
+  - React/jsi
+  - React/jsiexecutor
+  - React/jsinspector
+  - React/RCTActionSheet
+  - React/RCTAnimation
+  - React/RCTBlob
+  - React/RCTImage
+  - React/RCTNetwork
+  - React/RCTSettings
+  - React/RCTText
+  - React/RCTVibration
+  - React/RCTWebSocket
+  - RN_MyProfile (from `../`)
+  - Specta
+  - yoga (= 0.59.9.React)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - boost-for-react-native
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+  https://github.com/kymodular/PrivatePods.git:
+    - DoubleConversion
+    - Folly
+    - glog
+    - React
+    - yoga
+
+EXTERNAL SOURCES:
+  RN_MyProfile:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: f667477bface883238976991f46105fcacc96d56
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Folly: 391015f9b49dcda4ab622abb43ee71ab77c96269
+  glog: f67a3d5e31bc6f31211e12ae7b2dfe87aa95c474
+  React: b84aaa62d5d686182b1316a107844ae79481eba8
+  RN_MyProfile: 33af69540f992771ea4eded37072a341578f0673
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  yoga: add25c5694c2e5cd322c007b14dbf4802308cee7
+
+PODFILE CHECKSUM: 4a7f3b42b6895e5cb46066f992cd63894941a480
+
+COCOAPODS: 1.8.0.beta.2
