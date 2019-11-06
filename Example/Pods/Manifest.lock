@@ -80,7 +80,7 @@ PODS:
     - React/RCTText
     - React/RCTVibration
     - React/RCTWebSocket
-    - yoga
+    - yoga (= 0.59.9.React)
   - Specta (1.0.7)
   - yoga (0.59.9.React)
 
@@ -138,7 +138,7 @@ SPEC CHECKSUMS:
   Folly: 391015f9b49dcda4ab622abb43ee71ab77c96269
   glog: f67a3d5e31bc6f31211e12ae7b2dfe87aa95c474
   React: b84aaa62d5d686182b1316a107844ae79481eba8
-  RN_MyProfile: 33af69540f992771ea4eded37072a341578f0673
+  RN_MyProfile: 3b9a327a2b234415b10c7700c045ea6240825522
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   yoga: add25c5694c2e5cd322c007b14dbf4802308cee7
 

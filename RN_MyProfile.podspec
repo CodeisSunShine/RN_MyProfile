@@ -28,11 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/CodeisSunShine/RN_MyProfile.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'RN_MyProfile/Classes/**/*'
   
-  s.resource = 'RN_MyProfile/Assets/**/*'
+  s.resource = 'RN_MyProfile/Assets/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
@@ -48,7 +48,7 @@ TODO: Add long description of the pod here.
     s.dependency "React/RCTImage"
     s.dependency "React/RCTSettings"
     s.dependency "React/RCTVibration"
-    s.dependency "yoga"
+    s.dependency "yoga", "0.59.9.React"
     s.dependency "DoubleConversion"
     s.dependency "glog"
     s.dependency "Folly"

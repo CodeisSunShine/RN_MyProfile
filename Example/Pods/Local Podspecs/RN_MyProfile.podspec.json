@@ -16,10 +16,10 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "RN_MyProfile/Classes/**/*",
-  "resources": "RN_MyProfile/Assets/**/*",
+  "resources": "RN_MyProfile/Assets/*",
   "dependencies": {
     "React/Core": [
 
@@ -55,7 +55,7 @@
 
     ],
     "yoga": [
-
+      "0.59.9.React"
     ],
     "DoubleConversion": [
 
